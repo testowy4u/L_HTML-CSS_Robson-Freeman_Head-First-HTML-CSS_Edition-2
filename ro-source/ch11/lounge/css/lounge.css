@@ -19,29 +19,56 @@ h2 {
     font-style: italic;
     font-family: Georgia, "Times New Roman", Times, serif;
     color: #444444;
+    background-color: #a7cece;
     border-color: white;
     border-width: 1px;
     border-style: dashed;
-    background-color: #a7cece;
     padding: 25px;
-    padding-left: 80px;
     margin: 30px;
-    margin-right: 250px;
-    background-image: url("../images/background.gif");
-    background-repeat: no-repeat;
-    background-position: top left;
 }
 
 #elixirs {
     border: thin solid #007e7e;
     width: 200px;
     padding: 0 20px 20px 20px;
-    margin-left: 20px;
+    margin: auto;
     text-align: center;
     background-image: url("../images/cocktail.gif");
     background-repeat: repeat-x;
     line-height: 1;
-    float: right;
+}
+
+
+@media screen and (min-width: 571px) {
+    #guarantee {
+        line-height: 1.9em;
+        font-style: italic;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: #444444;
+        background-color: #a7cece;
+        border-color: white;
+        border-width: 1px;
+        border-style: dashed;
+        padding: 25px;
+        padding-left: 80px;
+        margin: 30px;
+        margin-right: 250px;
+        background-image: url("../images/background.gif");
+        background-repeat: no-repeat;
+        background-position: top left;
+    }
+
+    #elixirs {
+        border: thin solid #007e7e;
+        width: 200px;
+        padding: 0 20px 20px 20px;
+        margin-left: 20px;
+        text-align: center;
+        background-image: url("../images/cocktail.gif");
+        background-repeat: repeat-x;
+        line-height: 1;
+        float: right;
+    }
 }
 
 #elixirs h2 {
@@ -87,21 +114,3 @@ a:visited {
     background: #f88396;
     color: #0d5353;
 }
-
-/*@media screen and (max-width: 480px) {*/
-    /**/
-/*}*/
-
-/*#guarantee {*/
-    /*line-height: 1.9em;*/
-    /*font-style: italic;*/
-    /*font-family: Georgia, "Times New Roman", Times, serif;*/
-    /*color: #444444;*/
-    /*border: 1px dashed white;*/
-    /*background-color: #a7cece;*/
-    /*padding: 25px;*/
-    /*padding-left: 80px;*/
-    /*margin: 30px;*/
-    /*margin-right: 250px;*/
-    /*background-image: url("../images/background.gif");*/
-/*}*/
