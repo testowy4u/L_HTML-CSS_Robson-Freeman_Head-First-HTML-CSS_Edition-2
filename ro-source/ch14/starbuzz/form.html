@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>The Starbuzz Bean Machine</title>
+    <link rel="stylesheet" href="css/starbuzz.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <h1>The Starbuzz Bean Machine</h1>
+    <h2>Fill out the form below and click "order now" to order</h2>
+
+    <form action="http://www.starbuzzcoffee.com/processorder.php" method="post">
+    <div class="tableRow">
+        <p>Choose your beans:</p>
+        <p>
+            <label>
+            <select name="beans" id="beans">
+                <option value="House Blend">House Blend</option>
+                <option value="Bolivia">Shade Grown Bolivia Supremo</option>
+                <option value="Guatemala">Organic Guatemala</option>
+                <option value="Kenya">Kenya</option>
+            </select>
+            </label>
+        </p>
+    </div>
+    <div class="tableRow">
+        <p>Type: </p>
+        <p>
+            <input type="radio" name="beantype" value="whole" id="whole">
+            <label for="whole">Whole bean</label> <br />
+            <input type="radio" name="beantype" value="ground" id="ground" checked="checked">
+            <label for="ground">Ground</label>
+        </p>
+    </div>
+    <div class="tableRow">
+        <p>Number of bags: </p>
+        <p><input type="number" name="bags" min="1" max="10">
+    </div>
+    </form>
+</body>
+</html>
